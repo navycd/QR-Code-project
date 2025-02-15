@@ -1,0 +1,48 @@
+
+  .body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: hsl(216, 15%, 48%);
+  }
+  .div1{
+    display: flex;
+    background-color: hsl(212, 45%, 89%);
+    width: 320px;
+    height: 499px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .qr-image{
+  margin-top: 13px;
+  height: 288px;
+  width: 288px;
+  border-radius: 10px;
+  background-image: url("images/image-qr-code.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat; /* ne demek */
+  }
+
+  .strongh1{
+       color: black;
+       font-family: sans-serif;
+       text-align: center;
+       margin-left: 20px;
+       margin-right: 20px;
+
+
+  }
+  .metin{
+       color: gray;
+       font-family: sans-serif;
+       text-align: center;
+       margin-left: 19px;
+       margin-right: 19px;
+  }
